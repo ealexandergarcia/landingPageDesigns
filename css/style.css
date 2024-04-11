@@ -1,6 +1,124 @@
 @import url(variables.css);
-*{
+@import url(fonts.css);
+
+
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+}
+
+h2,
+h3,
+p {
+    color: #ffffff;
+}
+
+h2 {
+    font-family: 'Bitter', sans-serif;
+}
+
+p,
+button {
+    font-family: 'Space Mono', monospace;
+}
+
+body {
+    background-color: var(--color-prymary);
+}
+
+.container {
+    width: 1440px;
+    height: 1024px;
+    margin: auto;
+    padding: 64px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-image: url('../storage/img/fondo.svg');
+    background-repeat: no-repeat;
+}
+
+.block1 {
+    display: flex;
+}
+
+.titles,
+.numbers {
+    width: 50%;
+}
+
+.titles {
+    padding-top: 149px;
+
+    h2 {
+
+        font-weight: bold;
+        line-height: 91px;
+        font-size: 72px;
+        padding-bottom: 20px;
+    }
+
+    p {
+        padding-bottom: 20px;
+        font-size: 22px;
+    }
+
+    button {
+        font-size: 20px;
+        line-height: 18px;
+        padding: 24px 40px;
+        border-radius: 40px;
+    }
+}
+
+.numbers {
+    display: flex;
+    position: relative;
+
+    .number {
+        width: 50%;
+        ;
+
+        h2 {
+            font-size: 48px;
+            text-align: center;
+        }
+
+        p {
+            font-size: 16px;
+            text-align: center;
+        }
+    }
+
+    #number-down.number {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+    }
+}
+
+.block2 {
+    display: flex;
+    gap: 24px;
+
+    .card {
+        width: 310px;
+        height: 238px;
+        padding: 22px;
+        background: linear-gradient(#878585, #161616);
+        border-radius: 16px;
+        border: 1px solid white;
+        box-shadow: inset 0 0 10px #000000;
+
+        p {
+            font-size: 14px;
+            letter-spacing: 1px;
+        }
+
+        img,
+        h2 {
+            margin-bottom: 10px;
+        }
+    }
 }
