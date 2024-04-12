@@ -1,6 +1,92 @@
 @import url(variables.css);
-*{
+@import url(fonts.css);
+
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Avenir', sans-serif;
+}
+
+.contenedor-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    /* 4 columnas con tamaño igual */
+    grid-template-rows: repeat(2, auto);
+    /* 2 filas con altura automática */
+    gap: 20px;
+    /* Espacio entre elementos */
+}
+
+.item {
+    background-color: #ccc;
+    padding: 20px;
+    text-align: center;
+    width: 316px;
+    height: 288px;
+    border-radius: 16px;
+    background-image: var(--background-img-imagelist);
+}
+#img2{
+    --background-img-imagelist: url(../storage/img/2.svg);
+}
+#img3{
+    --background-img-imagelist: url(../storage/img/3.svg);
+}
+#img4{
+    --background-img-imagelist: url(../storage/img/4.svg);
+}
+#img5{
+    --background-img-imagelist: url(../storage/img/5.svg);
+}
+#img6{
+    --background-img-imagelist: url(../storage/img/6.svg);
+}
+#img7{
+    --background-img-imagelist: url(../storage/img/7.svg);
+}
+#img8{
+    --background-img-imagelist: url(../storage/img/8.svg);
+}
+
+.container {
+    width: 1440px;
+    height: 1139px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 64px;
+}
+
+.block1{
+    width: 48%;
+    margin: 0 auto 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+
+    h2{
+        font-size: 64px;
+        line-height: 80px;
+        text-align: center;
+        text-align: center;
+    }
+    
+    p{
+        font-size: x-large;
+        text-align: center;
+        letter-spacing: 2px;
+    }
+
+    button {
+        width: 158px;
+        height: 54px;
+        border-radius: 16px;
+        background-color: #252525;
+        color: #FFFFFF;
+        font-size: 18px;
+        line-height: 18px;
+    }
 }
