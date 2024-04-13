@@ -7,86 +7,44 @@
     box-sizing: border-box;
     font-family: 'Avenir', sans-serif;
 }
-
-.contenedor-grid {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    /* 4 columnas con tamaño igual */
-    grid-template-rows: repeat(2, auto);
-    /* 2 filas con altura automática */
-    gap: 20px;
-    /* Espacio entre elementos */
-}
-
-.item {
-    background-color: #ccc;
-    padding: 20px;
-    text-align: center;
-    width: 316px;
-    height: 288px;
-    border-radius: 16px;
-    background-image: var(--background-img-imagelist);
-}
-#img2{
-    --background-img-imagelist: url(../storage/img/2.svg);
-}
-#img3{
-    --background-img-imagelist: url(../storage/img/3.svg);
-}
-#img4{
-    --background-img-imagelist: url(../storage/img/4.svg);
-}
-#img5{
-    --background-img-imagelist: url(../storage/img/5.svg);
-}
-#img6{
-    --background-img-imagelist: url(../storage/img/6.svg);
-}
-#img7{
-    --background-img-imagelist: url(../storage/img/7.svg);
-}
-#img8{
-    --background-img-imagelist: url(../storage/img/8.svg);
-}
-
-.container {
-    width: 1440px;
-    height: 1139px;
+body{
+    max-width: 1440px;
+    height: 1204px;
     margin: auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    padding: 64px;
+    padding: 80px 64px 64px 64px;
 }
-
-.block1{
-    width: 48%;
-    margin: 0 auto 0 auto;
+.article__jump{
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 15px;
-
-    h2{
-        font-size: 64px;
-        line-height: 80px;
-        text-align: center;
-        text-align: center;
+    justify-content: space-around;
+    h1{
+        width: 60%;
+        font-size: 5.5rem;
     }
-    
-    p{
-        font-size: x-large;
-        text-align: center;
-        letter-spacing: 2px;
+    .text-container{
+        width: 40%;
+        p{
+            color: #252525cc;
+            font-size: 1.6rem;
+            margin-bottom: 20px;
+        }
+        a {
+            font-size: 1rem;
+            width: 157px;
+            height: 50px;
+            background: #252525;
+            color: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-decoration: none;
+            border-radius: 16px;
+            margin-bottom: 100px;
+        }
     }
-
-    button {
-        width: 158px;
-        height: 54px;
-        border-radius: 16px;
-        background-color: #252525;
-        color: #FFFFFF;
-        font-size: 18px;
-        line-height: 18px;
-    }
+}
+.section__img{
+    height: 100%;
+    background-image: url(../storage/img/hero_Image.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
