@@ -67,3 +67,29 @@ p{
     background: #363830;
     color: #FFFFFF;
 }
+
+
+.article__list{
+    width: 948px;
+    height: 272px;
+    display: flex;
+    position: absolute;
+    left: 428px;
+    top: 591px;
+    border-radius: 144px;
+    background: #b6bebe;
+    justify-content: center;
+}
+.list__number{
+    width: 38px;
+    border-bottom: 5px solid;
+    font-size: 1.5rem;
+}
+.list__paragraph{
+    width: 204px;
+    font-size: 1rem;
+}
+
+.list__container{
+    background: #b6bebe;
+}
