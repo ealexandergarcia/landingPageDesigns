@@ -1,6 +1,68 @@
 @import url(variables.css);
-*{
+@import url(fonts.css);
+
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+}
+
+body {
+    max-width: 1440px;
+    max-height: 954px;
+    margin: auto;
+    padding: 65px;
+}
+
+.section__container {
+    display: flex;
+}
+.article__jump{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+h1 {
+    font-size: 4rem;
+    line-height: 80px;
+}
+
+p {
+    font-family: 'Work', sans-serif;
+    font-size: 1.5rem;
+    color: #333333;
+}
+
+.buttons__container{
+    display: flex;
+    gap: 35px;
+}
+.primary__button{
+    width: 219px;
+    height: 66px;
+    border-radius: 16px;
+    background-color: #050505;
+    color: #ffffff;
+    font-size: 1.5rem;
+}
+.secondary__button{
+    width: 219px;
+    height: 66px;
+    border-radius: 16px;
+    background-color: #ffffff;
+    color: #050505;
+    font-size: 1.5rem;
+
+}
+
+.list{
+    display: flex;
+    border: 1px solid;
+    border-radius: 24px;
+    padding: 24px;
+    gap: 90px;
+    p{
+        font-size: 1rem;
+    }
 }

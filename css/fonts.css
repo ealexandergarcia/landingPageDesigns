@@ -1,0 +1,5 @@
+@font-face {
+    font-family: 'Work';
+    src: url('../storage/font/WorkSans-Regular.ttf') format('truetype');
+    src: url('../storage/font/WorkSans-Medium.ttf') format('truetype');
+  }
