@@ -5,4 +5,65 @@
     margin: 0;
     box-sizing: border-box;
     background: var(--color-prymary);
+    font-family: 'Poppins',sans-serif;
+}
+body{
+    max-width: 1440px;
+    max-height: 954px;
+    position: relative;
+    margin: auto;
+    padding: 65px 65px 0 65px;
+}
+h2,p {
+    color: #363830;
+}
+
+h2{
+    font-size: 5.5rem;
+    line-height: 104px;
+}
+
+p{
+    font-size: 1.5rem;
+
+}
+.background__image, .background__image2{
+    position: absolute;
+}
+.background__image{
+    width: 462px;
+    height: 508px;
+    left: 64px;
+    top: 418px;
+}
+.background__image2{
+    width: 537px;
+    height: 512px;
+    left: 838px;
+    top: 0;
+}
+
+.section__container{
+    position: absolute;
+    h2,p{
+        background: transparent;
+    }
+
+}   
+.article__jump{
+    position: absolute;
+    width: 756px;
+    height: 310px;
+    background: transparent;
+    left: 257px;
+    top: 64px;
+}
+
+.article__button{
+    width: 182px;
+    height: 66px;
+    border-radius: 36px;
+    font-size: 1.5rem;
+    background: #363830;
+    color: #FFFFFF;
 }
