@@ -1,5 +1,5 @@
 @font-face {
-    font-family: 'Avenir';
-    src: url('../storage/font/WorkSans-Light.ttf') format('truetype');
+    font-family: 'WorkSans';
     src: url('../storage/font/WorkSans-Bold.ttf') format('truetype');
+    src: url('../storage/font/WorkSans-Light.ttf') format('truetype');
   }

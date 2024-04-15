@@ -4,4 +4,49 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    background: var(--color-prymary);
+    font-family: 'WorkSans', sans-serif;
+}
+body {
+    max-width: 1440px;
+    max-height: 926px;
+    margin: auto;
+    padding: 65px;
+}
+h1, p{
+    color: #fff;
+}
+h1{
+    font-size: 5.5rem;
+    line-height: 104px;
+}
+p{
+    font-size: 1.5rem;
+    line-height: 32px;
+    /* font-weight: ; */
+}
+.section__container{
+    display: flex;
+}
+.article__jump{
+    width: 60%;
+    height: 100vh;
+    background-image: url(../storage/img/Hero-image.svg);
+    background-repeat: no-repeat ;
+}
+.article__item{
+    width: 40%;
+    padding: 90px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.article__button{
+    width: 231px;
+    height: 82px;
+    border: 0;
+    border-radius: 36px;
+    background: #E5B94B;
+    font-size: 2rem;
+    font-weight: bold;
 }
