@@ -18,6 +18,8 @@ main {
 }
 .section__container{
     display: flex;
+    justify-content: space-between;
+    margin-bottom: 56px;
 }
 .article__jump{
     width: 637px;
@@ -27,10 +29,12 @@ main {
     font-family: 'Avenir_Heavy',sans-serif;
     font-size: 4.5rem;
     line-height: 88px;
+    margin-bottom: 32px;
 }
 .article__jump p{
     width: 586px;
     font-size: 1.625rem;
+    margin-bottom: 32px;
 }
 
 .article__jump button{
@@ -42,6 +46,26 @@ main {
     font-size: 1.625rem;
 }
 
-.article__img{
-    margin: auto;
+.section__list{
+    width: 1312px;
+    height: 298px;
+    padding: 64px;
+    border-radius: 40px;
+    display: flex;
+    justify-content: space-between;
+    background: #252525;
+}
+.card__item{
+    width: 316px;
+    height: 170px;
+    color: #ffffff;
+}
+
+.card__item h3{
+    font-family: 'Avenir_Heavy',sans-serif;
+    font-size: 2rem;
+    margin-bottom: 24px;
+}
+.card__item p{
+    font-size: 1.5rem;
 }
