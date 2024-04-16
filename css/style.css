@@ -1,6 +1,11 @@
+/* Importaciones */
 @import url(variables.css);
-*{
+@import url(fonts.css);
+
+/* Estilos globales */
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Avenir', sans-serif;
 }
