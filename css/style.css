@@ -7,5 +7,41 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: 'Avenir', sans-serif;
+    font-family: 'Avenir_Roman', sans-serif;
+}
+
+main {
+    max-width: 1440px;
+    max-height: 1024px;
+    margin: auto;
+    padding: 65px;
+}
+.section__container{
+    display: flex;
+}
+.article__jump{
+    width: 637px;
+    padding-right: 15px;
+}
+.article__jump h1{
+    font-family: 'Avenir_Heavy',sans-serif;
+    font-size: 4.5rem;
+    line-height: 88px;
+}
+.article__jump p{
+    width: 586px;
+    font-size: 1.625rem;
+}
+
+.article__jump button{
+    width: 182px;
+    height: 66px;
+    border-radius: 32px;
+    background: #252525;
+    color: #ffffff;
+    font-size: 1.625rem;
+}
+
+.article__img{
+    margin: auto;
 }

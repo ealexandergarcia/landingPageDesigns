@@ -1,5 +1,8 @@
 @font-face {
-    font-family: 'Avenir';
-    src: url('../storage/font/avenir/Avenir_Heavy.ttf') format('truetype');
-    src: url('../storage/font/avenir/Avenir_Roman.otf') format('truetype');
+    font-family: 'Avenir_Heavy';
+    src: url('../storage/font/Avenir_Heavy.ttf') format('truetype');
+  }
+@font-face {
+    font-family: 'Avenir_Roman';
+    src: url('../storage/font/Avenir_Roman.otf') format('truetype');
   }
