@@ -4,3 +4,28 @@
     margin: 0;
     box-sizing: border-box;
 }
+body {
+    max-width: 1440px;
+    height: 1024px;
+    width: 100%;
+    margin: auto;
+    padding: 64px;
+}
+
+.section__container{
+    display: flex;
+}
+.article__jump1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.article__list{
+    display: flex;
+}
+
+.article__list{
+    display: flex;
+}
