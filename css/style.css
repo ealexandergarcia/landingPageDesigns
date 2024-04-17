@@ -3,4 +3,49 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+body{
+    background: #f1efef;
+   
+}
+
+.container {
+    width: 1440px;
+    height: 1024px;
+    margin: auto;
+    padding: 64px;
+
+
+    background-image: url('../storage/img/fondo.svg');
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.box{
+    width: 676px;
+    height: 418px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+
+    
+}
+.box h1 {
+    font-size: 5rem;
+}
+.box p{
+    font-size: 24px;
+}
+.box button{
+    width: 222px;
+    height: 66px;
+    border-radius: 40px;
+    background-color: black;
+    color: #ffffff;
+    font-size: 22px;
 }
