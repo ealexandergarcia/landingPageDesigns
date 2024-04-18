@@ -1,6 +1,87 @@
 @import url(variables.css);
+@import url(fonts.css);
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Avenir', sans-serif;
+}
+body {
+    max-width: 1440px;
+    max-height: 1024px;
+    height: 100vh;
+    margin: auto;
+    padding: 65px;
+    position: relative;
+}
+.article__content, .article__card{
+    width: 100%;
+}
+.section__container{
+    display: flex;
+    gap: 24px;
+    height: 100%;
+}
+.article__content{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.article__content h1 {
+    font-size: 4.5rem;
+}
+.article__content p {
+    width: 519px;
+    color: var(--color-2);
+    font-size: 1.5rem;
+}
+
+.article__content button {
+    width: 182px;
+    height: 66px;
+    border-radius: 32px;
+    font-size: 1.5rem;
+    background: var(--color-1);
+    color: var(--color-3);
+}
+.article__card {
+    height: 122px;
+    display: flex;
+    align-self: flex-end;
+    align-items: center;
+    gap: 24px;
+}
+.img__area{
+    width: 917px;
+    height: 840px;
+    position: absolute;
+    right: 110px;
+    top: 55px;
+    z-index: 1;
+    overflow: hidden;
+}
+.img__area img{
+    width: 100%;
+    height: 100%;
+}
+.icon__dawn, .icon__dawn1, .icon__spiral, .icon__waves {
+    position: absolute;
+}
+.icon__dawn{
+    top: 37%;
+    left: 41%;
+    z-index: 1;
+}
+
+.icon__dawn1{
+    right: 128px;
+    bottom: 215px;
+}
+.icon__spiral{
+    left: 165px;
+    bottom: 95px;
+}
+.icon__waves{
+    top: 93px;
+    left: 35%;
 }
