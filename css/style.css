@@ -22,16 +22,19 @@ body {
     background-repeat: no-repeat;
     background-position-x: right;
     background-size: contain;
+    display: flex;
+    flex-direction: column;
+    gap: 92px;
 }
 
 .section__container{
     width: 724px;
     height: 518px;
-    margin-top: 128px;
     padding: 40px 56px;
     border-radius: 24px;
     background-image:linear-gradient(to bottom right, #081216cc, #063c46cc);
-    color: #ffffff;   
+    color: #ffffff;  
+    backdrop-filter: blur(5px); 
 }
 .div__tittle img{
     margin-bottom: 24px;
@@ -57,6 +60,17 @@ body {
     background: var(--color-prymary);
 }
 
+.section__list{
+
+    padding: 24px 56px;
+    border: 1px solid white;
+    border-radius: 32px;
+    backdrop-filter: blur(5px);
+}
 .article__card{
     display: flex;
+    width: 100%;
+    justify-content: space-between;
+    color:#ffffff;
+    gap: 92px;
 }
