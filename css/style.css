@@ -73,4 +73,8 @@ h1{
 }
 .list__info h3{
     font-size: 1.5rem;
+    width: 40%;
+    padding-bottom: 5px;
+    border-bottom: 3px solid;
+    margin-bottom: 5px;
 }
