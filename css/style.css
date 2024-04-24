@@ -12,6 +12,7 @@ main{
     align-items: center;
     padding: 64px;
     gap: 143px;
+    background: var(--color-4);
 }
 h1{
     font-family: 'Poppins',sans-serif;
@@ -43,6 +44,10 @@ h1{
     border-radius: 36px;
     text-decoration: none;
 }
+
+.content__imgs{
+    position: relative;
+}
 .imgs__main{
     display: flex;
     flex-direction: column;
@@ -51,4 +56,21 @@ h1{
 .img_bottom{
     display: flex;
     justify-content: space-between;
+}
+.content__list{
+    display: flex;
+    padding: 64px 40px;
+    gap: 72px;
+    width: 75%;
+    border-radius: 48px;
+    position: absolute;
+    background: #ffffff;
+    top: -100px;
+    left: 13%;
+}
+.list__info{
+    width: 176px;
+}
+.list__info h3{
+    font-size: 1.5rem;
 }
