@@ -3,4 +3,55 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+.main{
+   padding: 118px 71px 64px 71px;
+}
+
+.info__main{
+    display: flex;
+}
+.info__imgs, .info__imgs2{
+    width: 355px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.info__imgs img:nth-child(1), .info__imgs2 img:nth-child(1){
+    margin-top: 19px;
+    margin-bottom: 51px;
+}
+
+.info__text{
+    width: 698px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+}
+
+.info__text h1{
+    font-size: 4rem;
+    line-height: 80px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.info__text p{
+    width: 433px;
+    font-size: 1.5rem;
+    line-height: 32px;
+    text-align: center;
+}
+
+.info__text a{
+    width: 121px;
+    height: 50px;
+    padding: 16px 32px;
+    border-radius: 24px;
+    background: var(--color-1);
+    color: var(--color-2);
+    text-decoration: none;
+    text-align: center;
 }
